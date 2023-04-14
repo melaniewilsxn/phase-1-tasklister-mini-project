@@ -48,14 +48,15 @@ input[type="submit"] {
   font-family: "Courier", monospace;
 }
 
-/* input[type="click"] {
+input[type="click"] {
+  width: fit-content;
   text-align: center;
   background: #9bc1bc;
   color: #f0f6f5;
   border-style: outset;
   border-color: #609a93;
   font-family: "Courier", monospace;
-} */
+}
 
 input[type="text"] {
   background: #f0f6f5;
@@ -89,14 +90,14 @@ li::marker {
   color: #2b4642;
 }
 
-.highPriority {
+.aPriority {
   color: #ED6A5A;
 }
 
-.mediumPriority {
+.bPriority {
   color: #e2da4d;
 }
 
-.lowPriority {
+.cPriority {
   color: #7BA05B;
 }
